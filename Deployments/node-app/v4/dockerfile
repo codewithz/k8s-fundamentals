@@ -1,0 +1,4 @@
+FROM node:alpine
+LABEL author="Code With Z"
+COPY server.js /server.js
+ENTRYPOINT ["node", "server.js"]
